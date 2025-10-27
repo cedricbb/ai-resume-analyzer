@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { Link, useNavigate, useParams } from "react-router"
 import ATS from "~/components/ATS"
 import Details from "~/components/Details"
-import Summary from "~/components/summary"
+import Summary from "~/components/Summary"
 import { usePuterStore } from "~/lib/puter"
 
 export const meta = () => ([
